@@ -3,7 +3,7 @@ from models.attention import message_attention_model
 import numpy as np
 
 if __name__ == "__main__":
-    data_filepath = "data/sms_data.tsv"
+    data_filepath = "data/SMSSpamCollection"
     total_rows = np.arange(0, 5000)
     np.random.shuffle(total_rows)
     
