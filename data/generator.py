@@ -1,11 +1,10 @@
-import tensorflow as tf
+import pandas as pd
 import numpy as np
-import pandas as pd 
-import scipy as sp
-from sklearn.model_selection import train_test_split
 import math
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+import tensorflow as tf
+from utils.constants import MAX_LEN, VOCAB_SIZE
 
 MAX_LEN = 50
 VOCAB_SIZE = 10000
