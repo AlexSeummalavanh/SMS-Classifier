@@ -1,4 +1,4 @@
-from generators.message_data_generator import MessageDataGenerator
+from data.generator import MessageDataGenerator
 from utils.constants import MAX_LEN, VOCAB_SIZE
 import tensorflow as tf
 

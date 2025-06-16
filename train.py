@@ -1,5 +1,5 @@
-from models.rnn import rnn
-from models.attention import attention
+from models.rnn import message_rnn_model
+from models.attention import message_attention_model
 import numpy as np
 
 if __name__ == "__main__":
